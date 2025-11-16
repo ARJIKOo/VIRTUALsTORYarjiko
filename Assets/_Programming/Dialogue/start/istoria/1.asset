@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109ea7f55c055a6939fbc02b2b77faca, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueEvent
+  previousEvent: {fileID: 0}
+  skipEvent: {fileID: 0}
+  eventType: 0
+  particleObjectName: 
+  enableParticleObject: 1
+  useCustomPositionForCurrent: 0
+  customPositionForCurrent: {x: 0, y: 0, z: 0}
+  useCustomPositionForPrevious: 0
+  customPositionForPrevious: {x: 0, y: 0, z: 0}
+  objectContinue: 1
+  dialogue:
+  - newSong: 0
+    dialogBoxbool: 0
+    line: 
+    _event:
+      speed: 0
+      voiceover: {fileID: 0}
+      image: {fileID: 2800000, guid: 5be825316ec5c7b418d5b51c2631a0f9, type: 3}
+      transitionFade: 0
+      dialogueBoxes:
+      - cameraEffects: {fileID: 0}
+        enabled: 1
+        dialogBoxbool: 0
+        position: {x: 102, y: -0.25}
+        size: {x: 614, y: 634}
+        fontSize: 0
+        text: "Chemistry is the science that studies matter\u2014everything that
+          has mass and takes up space. It explores how substances are built, how
+          they behave, and how they transform into something new. From the smallest
+          atoms to the largest molecules, chemistry helps us understand the building
+          blocks of the universe."
+        narrator:
+          name: 
+        rewriteText: 0
+        textBeforeRewrite: 
+        rewriteCount: 0
+        rewriteTexts:
+        - 
+    _narrator:
+      name: 
+    bgm: {fileID: 0}
+  nextEvent: {fileID: 11400000, guid: 80e2d9eab219fb74ca1fb3513be5a8ea, type: 2}
